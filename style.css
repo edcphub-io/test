@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: skyblue;
+  padding-right: 60px; /* space for sidebar */
+}
+
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 10px 20px;
+  border-bottom: 2px solid #ccc;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.logo img {
+  width: 30px;
+  height: 30px;
+}
+
+.login-btn {
+  background: red;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.notice-bar {
+  background: #ffeb3b;
+  padding: 8px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+  margin-top: 5px;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 15px;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.card p {
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.card button {
+  background: #03a9f4;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.black-card {
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+.white-card {
+  background: white;
+  color: black;
+}
+
+.gray-card{
+   background: white;
+  color: black;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 60px;
+  height: 100%;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  gap: 20px;
+  box-shadow: -2px 0 5px rgba(0,0,0,0.1);
+}
+
+.sidebar img {
+  width: 30px;
+  cursor: pointer;
+}
+
+.gray-card {
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0); 
+}
